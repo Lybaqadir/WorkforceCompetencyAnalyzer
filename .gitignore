@@ -1,6 +1,7 @@
 # Dependencies
 node_modules
 **/node_modules
+package-lock.json.bak
 
 # Sensitive — secrets, keys, environment files (NEVER commit these)
 .env
@@ -28,6 +29,9 @@ dist
 dist-ssr
 *.local
 
+# Vite
+.vite
+
 # Logs
 logs
 *.log
@@ -39,3 +43,6 @@ lerna-debug.log*
 
 # Runtime app state (regenerated on use)
 server/data/workflow-state.json
+
+# OS files
+Thumbs.db
